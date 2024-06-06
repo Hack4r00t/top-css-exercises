@@ -2,3 +2,8 @@ p {
     background-color: #f5aec5;
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
+
+#second-elt {
+    color: blue;
+    font-size: 36px;
+}
