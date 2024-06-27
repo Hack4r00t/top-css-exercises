@@ -1,6 +1,19 @@
+*html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .logo {
@@ -11,9 +24,23 @@
   padding: 4px 32px;
 }
 
+div.left-links,
+div.right-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+div.left-links ul,
+div.right-links ul{
+  display: flex;
+  gap: 20px;
+}
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0;
 }
 
 a {
